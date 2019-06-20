@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 4vh;
+}
+.heading{
+  padding-left: 40vw;
+  padding-right: 41vw;
+}
+h1{
+  font-size: 5.5vh;
+  width: 20vw;
+  height: 10vh;
+  padding-top: 3vh;
+  background-color: #ffcd48;
+  border-radius: 3vw;
+}
+h2{
+  font-size: 4.2vh;
+}
+h3{
+  font-size: 3.5vh;
+}
+h4{
+  font-size: 2.5vh;
+  font-weight: normal;
+}
+.main{
+  margin-top: 5vh;
+}
+.headrow{
+  margin-top: 5vh;
+  display: flex;
+  margin-bottom: 3vh;
+}
+.head1{
+  flex: 1;
+}
+.head2{
+  flex: 1;
+}
+.details{
+  margin-left: 15vw;
+  margin-top: 4vh;
+  display: flex;
+  margin-bottom: 3vh;
+}
+.bor{
+  margin-left: 25vh;
+  margin-right: 25vh;
+  border: 1px solid black;
+  border-radius: 3vw;
+}
+.phead, .shead,{
+  flex: 1;
+}
+.phead{
+  margin-left: -10vw;
+}
+.shead{
+  margin-left: 18vw;
+}
+.pdetails, .sdetails{
+  flex: 2;
+  margin-left: 5vh;
+  font-style: italic;
+}
+button{
+  background-color: #cc0000;
+  border: 0;
+  outline: none;
+  height: 4vw;
+  width: 40vh;
+  color: #ffcd48;
+  font-weight: bold;
+  font-size: 3vh;
+  margin-top: 7vh;
+  border-radius: 3vw;
+}

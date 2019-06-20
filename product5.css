@@ -1,0 +1,155 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  background-color:#FFCD48;
+  width: 100VW;
+  height: 15vh;
+  font-family: sans-serif;
+}
+.searchbox{
+
+height: 5vh;
+width: 35vw;
+margin-top: 2.5vw;
+margin-left: 1.5vw;
+border-radius: 0.5vw;
+text-indent: 2vh;
+outline: none;
+
+}
+.searchbutton{
+height: 5.5vh;
+width: 8vw;
+margin-top: 2.5vw;
+border-radius: 0.5vw;
+text-indent: 3vh;
+margin-left: 0vh;
+outline: none;
+}
+.hm:hover
+{
+color:black;
+}
+.product5{
+  width:auto;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  margin-top:10vh;
+  margin-left:10vh;
+}
+b{
+  font-family:sans-serif;
+  font-size:1.2em;
+}
+.discription{
+  margin-right:25vh;
+  width:50vw;
+}
+span{
+  color:red;
+}
+strong{
+  color:green;
+  font-family:sans-serif;
+  font-size:1.5em;
+}
+section{
+  font-family:sans-serif;
+}
+.prdct > input{
+  background-color:#cc0000;
+  width:20vw;
+  height:5vh;
+  border:none;
+  border-radius:10vh;
+  color:white;
+  outline:none;
+  font-weight:bold;
+  font-size:2.5vh;
+}
+.prdct > input:hover{
+  background-color:#ffa500;
+  color:black;
+}
+.foot_main{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #1A3940;
+  height: 90vh;
+}
+.btn1{
+  height: 10vh;
+  background-color: #2D626F;
+  border: none;
+  color: white;
+}
+.h2_aft{
+  margin: 1vh 90vh;
+}
+.banner001{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  margin: 2vh 0vh;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+}
+.sec1{
+  display: flex;
+  height: 60vh;
+  width: 25vw;
+  flex-direction: row;
+}
+.list1{
+  margin: 20px;
+}
+.list1 li{
+  list-style: none;
+  margin: 10px;
+  text-align: left;
+  color: white;
+}
+.sec2{
+  display: flex;
+  background-color: #1A3940;
+  height: 60vh;
+  width: 25vw;
+  flex-direction: row;
+}
+.sec3{
+  display: flex;
+  background-color: #1A3940;
+  height: 60vh;
+  width: 25vw;
+  flex-direction: row;
+  color: white;
+}
+.sec4{
+  display: flex;
+  background-color: #1A3940;
+  height: 60vh;
+  width: 25vw;
+  flex-direction: row;
+}
+h3{
+  color: white;
+}
+.sec5{
+  display: flex;
+  background-color: grey;
+  height: 6vh;
+  flex-direction: row;
+  padding: 2vh 80vh;
+}
+.down_logo{
+  float: right;
+}

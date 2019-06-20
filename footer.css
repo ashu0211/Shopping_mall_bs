@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.foot_main{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #1A3940;
+  height: 90vh;
+}
+.btn1{
+  height: 10vh;
+  background-color: #2D626F;
+  border: none;
+  color: white;
+}
+.h2_aft{
+  margin: 3vh 80vh;
+}
+.banner001{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+}
+.sec1{
+  display: flex;
+  height: 60vh;
+  width: 25vw;
+  flex-direction: row;
+}
+.list1{
+  margin: 20px;
+}
+.list1 li{
+  list-style: none;
+  margin: 10px;
+  text-align: left;
+  color: white;
+}
+.sec2{
+  display: flex;
+  background-color: #1A3940;
+  height: 60vh;
+  width: 25vw;
+  flex-direction: row;
+}
+.sec3{
+  display: flex;
+  background-color: #1A3940;
+  height: 60vh;
+  width: 25vw;
+  flex-direction: row;
+  color: white;
+}
+.sec4{
+  display: flex;
+  background-color: #1A3940;
+  height: 60vh;
+  width: 25vw;
+  flex-direction: row;
+}
+h3{
+  color: white;
+}
+.sec5{
+  display: flex;
+  background-color: #2D626F;
+  height: 6vh;
+  flex-direction: row;
+  padding: 2vh 80vh;
+  color: white;
+}
+.down_logo{
+  float: right;
+}

@@ -1,0 +1,54 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+.main_sk
+{
+background: stonewhite;
+padding-top: 10vh;
+height:90vh;
+display: flex;
+flex-direction: column;
+}
+.box1_sk
+{
+  display: flex;
+  flex-direction: row;
+  background:orange;
+  border-radius: 4vh;
+  padding:3vh 70vh;
+}
+.h1_sk
+{
+flex-direction: row;
+display:flex;
+
+}
+.box2_sk
+{
+  display: flex;
+  flex-direction: row;
+  background: stonewhite;
+  height:40vh;
+  margin-top: 10vh;
+}
+.b1_sk
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: row;
+
+  flex:1;
+  margin-left: 10px;
+  margin-right: 9px;
+  border-radius: 2vh;
+}
+.img_sk
+{
+  border-radius: 2vh;
+}
+.btn23:hover{
+  background-color: grey;
+  color: white;
+}

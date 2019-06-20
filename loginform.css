@@ -1,0 +1,41 @@
+*{
+  padding:6px;
+  margin:0px;
+}
+body {
+      display: flex;
+      height: 100vh;
+      flex-direction: row;
+      margin: 0;
+      font-size:
+      padding: 0;box-sizing: border-box;
+        background-color: auto;
+    }
+.form1{
+background-color: auto;
+width:100%;
+height:100vh;
+background-size: cover;
+position: relative;
+}
+.form2{
+  width:400px;
+  height:325px;
+  background-color:orange;
+  border-radius:10px;
+  left: 35%;
+  top: 20%;
+  position: absolute;
+}
+.form2 input{
+  width:350px;
+  height:30px;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-radius:10px;
+  border: none;
+
+}
+.form2 button{
+
+}

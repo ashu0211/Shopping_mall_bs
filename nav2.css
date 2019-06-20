@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo_ash{
+  height: 10vw;
+  width: 12vw;
+}
+.h1_ash{
+  color: #ffcd48;
+  margin-left: 5vw;
+  margin-right: 10vw;
+}
+.btns1{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background-color: #ffcd48;
+  border: 0;
+  border-radius: .5vw;
+  color: #ff0000;
+  padding: 1vh 2vw;
+  font-weight: bold;
+}
+.btns1:hover{
+  background-color: #F59C31;
+}
+.head_search i{
+  font-size: 1.7vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: .5vh;
+  color: white;
+}
+.main_nav{
+  display: flex;
+  flex-direction: row;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+}
+.head_search{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #BF2F45;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  background-color: #BF2F45;
+  width: flex-end;
+}
+.nav ul a{
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+.nav ul a li{
+  width: 15.45vw;
+  height: 5vw;
+  padding-left: 5vw;
+  padding-top: 1.7vw;
+  color: white;
+  padding-bottom: 1.7vw;
+  border-radius: 8vw 8vw 0px 0px;
+  font-weight: bold;
+}
+.nav li:hover{
+  background-color: #ffcd48;
+  color: black;
+}

@@ -1,0 +1,207 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.main_mansi{
+  width:auto;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  margin-top:5vh;
+}
+p{
+  font-family:sans-serif;
+  display:flex;
+  flex-direction: column;
+}
+.card1{
+   width:21vw;
+   height:63.1vh;
+   display: flex;
+   flex-direction: column;
+   text-align:center;
+   margin-left:auto;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box1_mns{
+   width:20.7vw;
+   height:22.6vh;
+   background-color:#ffcd48;
+   align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding-left:2vh;
+  padding-top:2.6vh;
+
+}
+.input_mns{
+  background-color:#cc0000;
+  border:none;
+  border-radius:10vh;
+  color:white;
+  outline:none;
+  font-weight:bold;
+  font-size:2.5vh;
+  padding: 1vh 6vh;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+
+}
+.input_mns:hover{
+  background-color:#ffa500;
+  color:black;
+}
+.card2{
+  width:21vw;
+  display: flex;
+  flex-direction: column;
+  height:63vh;
+  text-align:center;
+  margin-left:5vh;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box2_mns{
+  width:20.7vw;
+  height:22.6vh;
+  background-color:#ffcd48;
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding-left:2vh;
+  padding-top:2.6vh;
+  margin-top:2.5vh;
+}
+.card3{
+  width:21vw;
+  height:63vh;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  margin-left:5vh;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box3_mns{
+  width:20.7vw;
+  height:22.6vh;
+  background-color:#ffcd48;
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding-left:2vh;
+  padding-top: 2.6vh;
+  margin-top:5.5vh;
+}
+.card4{
+  width:21vw;
+  height:62.8vh;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  margin-left:5vh;
+  margin-right:auto;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box4_mns{
+  width:20.7vw;
+  height:22.6vh;
+  background-color:#ffcd48;
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding-left:2vh;
+  margin-top:2.6vh;
+  padding-top: 2.6vh;
+}
+.main_mansi2{
+  width:auto;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  margin-top:5vh;
+  margin-bottom: 10vh;
+}
+.span_mns{
+  color:#cc0000;
+}
+.card5{
+   width:21vw;
+   flex-direction: column;
+   display: flex;
+   height:60vh;
+   text-align:center;
+   margin-left:auto;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box5_mns{
+   width:20.7vw;
+   height:22.6vh;
+   background-color:#ffcd48;
+   align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding-left:2vh;
+  padding-top: 2.6vh;
+}
+.card6{
+  width:21vw;
+  flex-direction: column;
+  height:60vh;
+  display: flex;
+  text-align:center;
+  margin-left:5vh;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box6_mns{
+  width:20.7vw;
+  height:22.6vh;
+  background-color:#ffcd48;
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding-left:2vh;
+  margin-top:-0.5vh;
+  padding-top: 2.6vh;
+}
+.card7{
+  width:21vw;
+  height:60vh;
+  flex-direction: column;
+  display: flex;
+  text-align:center;
+  margin-left:5vh;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box7_mns{
+  width:20.7vw;
+  height:22.6vh;
+  background-color:#ffcd48;
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding-left:2vh;
+  padding-top:2.6vh;
+  margin-top:-0.5vh;
+}
+.card8{
+  width:21vw;
+  height:60vh;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  margin-left:5vh;
+  margin-right:auto;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box8_mns{
+  width:20.7vw;
+  height:22.6vh;
+  background-color:#ffcd48;
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding-left:2vh;
+  margin-top:2vh;
+  padding-top:2.6vh;
+}
